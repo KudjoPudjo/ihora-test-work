@@ -1,0 +1,24 @@
+.main{
+  width: 100%;
+  &_header{
+    border-bottom: 1px solid black;
+
+    & > h2{
+
+      margin: 0px 0px 8px;
+      font-size: 18px;
+      @media (min-width: 1024px) {
+        font-size: 24px;
+      }
+    }
+  }
+}
+.title{
+  font-size: 18px;
+  @media (min-width: 1024px) {
+    font-size: 24px;
+  }
+  &_red{
+    color: red;
+  }
+}

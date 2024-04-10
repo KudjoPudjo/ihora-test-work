@@ -1,0 +1,14 @@
+.car{
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(5,1fr);
+  }
+}

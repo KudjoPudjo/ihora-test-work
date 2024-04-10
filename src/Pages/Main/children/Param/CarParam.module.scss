@@ -1,0 +1,14 @@
+.param{
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_text{
+    font-size: 20px;
+    font-weight: 500;
+
+  }
+}
+.wrap{
+  width: 100%;
+}
